@@ -14,7 +14,7 @@
 <div markdown="1">
 
 - 유저관리, 프로필, 개인설정 및 추가기능
-- User 테스트 코드
+- 테스트 코드 작성
 - Docker, AWS 배포
 - CI/CD 구축
 - 코드 리팩토링 / Swagger 적용
