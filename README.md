@@ -119,6 +119,10 @@
 
 
 ## 7. Test Case
+### Line Coverage를 80% 이상을 목표로 개발했습니다
+![ex_screenshot](./img/coverage_1.png)
+![ex_screenshot](./img/coverage_2.png)
+
 <details>
 <summary style="font-size: 18px;">USER TEST CODE</summary>
 <div markdown="1">
