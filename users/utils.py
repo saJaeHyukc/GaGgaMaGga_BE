@@ -39,7 +39,7 @@ class Util:
             return dict(eval(request))["response"]["whois"]["countryCode"]
         
         except :
-            return None
+            return "없음"
     
     def email_authentication_send(user):
         secured_key = RefreshToken.for_user(user).access_token
