@@ -68,7 +68,7 @@ services:
   celery_work:
     container_name: celery_worker
     build: ./backend
-    command: celery -A gaggamagga worker -l info
+    command: celery -A gaggamagga worker --concurrency=3 -l info
     volumes:
       - ./backend/django/:/app/
     environment:
